@@ -5,7 +5,7 @@
  *
  * Description: print qoute
  *
- * Return/ 1 (not succes)
+ * Return: 1 (not succes)
 */
 int main(void)
 {
