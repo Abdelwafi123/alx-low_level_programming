@@ -5,11 +5,10 @@
 /**
  * main - entry point
  *
- * Description: positive or negative
+ * Description: true or false validation
  *
- * Return : Always 0 (Success)
+ * Return : 0 (Success)
 */
-
 int main(void)
 {
 	int n;
