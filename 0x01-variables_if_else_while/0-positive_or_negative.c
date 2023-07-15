@@ -5,9 +5,9 @@
 /**
  * main - entry point
  *
- * Description: true or false validation
+ * Description: A program that print if nember n is positive or negative
  *
- * Return 0 (Success)
+ * Return: 0 (Success)
 */
 int main(void)
 {
