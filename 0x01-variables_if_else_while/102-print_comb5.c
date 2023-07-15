@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-	int N1 = 0, int N2;
+	int N1 = 0,  N2;
 
 	while (N1 <= 99)
 	{
@@ -32,6 +32,6 @@ int main(void)
 		N1++;
 
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
