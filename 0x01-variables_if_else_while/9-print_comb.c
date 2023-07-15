@@ -15,7 +15,7 @@ int main(void)
 	while (digit <= 57)
 	{
 	putchar(digit);
-	if(digit != 9)
+	if (digit != 57)
 	{
 	putchar(',');
 	putchar(' ');
