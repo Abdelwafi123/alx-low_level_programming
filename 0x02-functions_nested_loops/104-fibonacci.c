@@ -53,9 +53,9 @@ int main(void)
 		printf("%lu", f1);
 
 		sum = (f1 + f2) % mx;
-		sumo = (fo + f2o + (f1 + f2) / mx;
+		sumo = fo + f2o + (f1 + f2) / mx;
 		f1 = f2;
-		1o = f2o;
+		fo = f2o;
 		f2 = sum;
 		f2o = sumo;
 
@@ -63,7 +63,7 @@ int main(void)
 			printf(", ");
 		else
 			printf("\n");
-		}
+	}
 
 		return (0);
 }
