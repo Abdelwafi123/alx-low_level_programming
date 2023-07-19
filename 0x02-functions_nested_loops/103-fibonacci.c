@@ -11,15 +11,20 @@
 int main(void)
 {
 	unsigned long fib1 = 0, fib2 = 2, sum = 0;
+	float totalsum;
 
-	while (sum < 4000000)
+	while (1)
 	{
-	sum = fib1 + fib2;
-	fib1 = fib2;
-	fib2 = sum;
-	if ((sum % 2) == 0)
-		printf("%lu ", sum);
+		sum = fib1 + fib2;
+
+		if (sum > 4000000)
+			break;
+		
+		if ((sum % 2) == 0)
+			totalsum += sum;
+		fib1 = fib2;
+		fib2 = sum;
 	}
-	printf("\n");
+	printf("%.0f\n");
 	return (0);
 }
