@@ -7,7 +7,7 @@
  * should be printed
 */
 
-void print _line(int n)
+void print_line(int n)
 {
 	int p;
 
