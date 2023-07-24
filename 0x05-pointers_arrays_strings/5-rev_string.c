@@ -1,4 +1,4 @@
-#incude "main.h"
+#inlcude "main.h"
 
 /**
  * rev_string - reverses astring
