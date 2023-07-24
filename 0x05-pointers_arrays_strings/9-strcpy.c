@@ -2,8 +2,8 @@
 
 /**
  * *_strcpy - copies the string pointed to by src
- * 8dest: chat type string
- * 8src: char type string
+ * @dest: chat type string
+ * @src: char type string
  * Description: copy the string pointed to by pointer 'src'
  * to the buffer pointed to by 'dest'
  * Return: Pointer to 'dest'
