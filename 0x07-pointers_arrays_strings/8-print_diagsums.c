@@ -4,7 +4,7 @@
 /**
  * print_diagsums - description
  * @a: 2d array of int types
- * @size: size of array |square|
+ * @size: size of array (square)
 */
 
 void print_diagsums(int *a, int size)
@@ -18,5 +18,5 @@ void print_diagsums(int *a, int size)
 		a += size;
 	}
 	printf("%d, ", s1);
-	printf("%d\n", S2);
+	printf("%d\n", s2);
 }
