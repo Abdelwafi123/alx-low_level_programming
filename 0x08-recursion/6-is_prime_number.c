@@ -28,5 +28,5 @@ int check_prime(int n, int a)
 	else if (n % a == 0 || n <= 1)
 		return (0);
 	else
-		return (checks_prime(n, a + 1));
+		return (check_prime(n, a + 1));
 }
